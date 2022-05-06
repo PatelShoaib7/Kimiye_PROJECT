@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/addToCart.css">
+</head>
+<style>
+    #all{
+     
+        height: 50px;
+    }
+</style>
+<body id="body">
+    <div id="all">
+    </div>
+   <div id="Product_Divs">
+   
+
+   </div>
+</body>
+</html>
+<script src="/scripts/addToCart.js"></script>
+<script type="module">
+    import navbars from "/scripts/addToCart.js"
+   console.log(navbars())
+
+
+ let navbar = document.getElementById("all")
+   navbar.innerHTML=navbars();
+   console.log(navbar)
+
+
+  
+
+
+
+
+
+
+
+
+
+</script>

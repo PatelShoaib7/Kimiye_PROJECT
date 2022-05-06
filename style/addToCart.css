@@ -1,0 +1,180 @@
+#body{
+    
+   background-color:rgb(239,239,235);
+   
+}
+#Product_Divs {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+   
+    gap: 100px;
+    margin: auto;
+    font-family: sans-serif;
+    margin-top: 70px;
+}
+#img{
+    width: 100%;
+    height: 260px;
+    border-radius: 20px;
+}
+#name{
+    margin-left: 35px;
+}
+#Inner_Div{
+  
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 25px;
+    width: 90%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+    margin-top: 10px;padding-top: 10px;
+}
+#price{
+     margin-left: 15px;
+     font-size: 18px;
+     
+}
+#btn{
+    height: 40px;
+    width: 138px;
+  margin-top: 10px;
+  border-radius: 36px;
+  margin-right: 15px;
+
+}
+
+#divss{
+  
+   height: 450px;
+   margin: 10px;
+ border-radius: 20px;
+ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#Product_Div_img:hover
+{
+   zoom: 1.1;
+   opacity: 1
+  
+}
+#navbar
+{
+  
+     height: 35px;
+     background-color: green;
+     width: 100%;
+     margin: auto;
+     margin-top: 10px;
+     padding-bottom: 10px;
+}
+#Inside_Text{
+    color: white;
+ font-family:sans-serif;
+font-size: 15px;
+ display: flex;
+justify-content: center;
+}
+#Below_Navbar {
+ 
+    height: 45px;
+    display: flex;
+}
+#Below_Navbar > select{
+    margin-right: 20px;
+    height: 30px;
+    width: 120px;
+}
+
+
+#Below_nav_text
+{
+    display: flex;
+
+}
+#kimye_logo{
+    margin-left: 220px;
+}
+#font_awesome{
+  
+width: 400px;
+margin-left: 300px;
+}
+#profile{
+    height: 20px;
+    width: 201px;
+}
+#font_awesome > a{
+    height: 200px;
+}
+#divss:hover{
+  border: 1px solid blue;
+}
+#img:hover{
+    border: 1px solid blue;
+}
+#btn:hover{
+    border: 2px solid black;
+    background-color: red;
+}
+#price:hover{
+    font-size: 30px;
+}
+body{
+    background-color:rgb(239,237,237) ;
+  }
+   #navbar
+   {
+    
+        height: 35px;
+        background-color: green;
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 8px;
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+   
+   }
+   #Inside_Text{
+       color: white;
+    font-family:sans-serif;
+   font-size: 15px;
+    display: flex;
+   justify-content: center;
+   }
+   #Below_Navbar {
+    
+       height: 45px;
+       display: flex;
+      
+    
+
+   }
+   #Below_Navbar > select{
+       margin-right: 20px;
+       height: 40px;
+       width: 180px;
+       font-size: 20px;
+       padding-left: 10px;
+       border-radius: 8px;
+       box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      
+      }
+   #Below_Navbar > select:hover{
+       background-color: green;
+   }
+
+
+   #Below_nav_text
+   {
+       display: flex;
+  
+   }
+   #kimye_logo{
+       margin-left: 220px;
+   }

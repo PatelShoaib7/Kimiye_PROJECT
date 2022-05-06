@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+      background-color:rgb(239,237,237) ;
+    }
+     #navbar
+     {
+      
+          height: 35px;
+          background-color: green;
+          width: 100%;
+          margin: auto;
+          margin-top: 10px;
+          padding-bottom: 10px;
+          border-radius: 8px;
+          box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+     
+     }
+     #Inside_Text{
+         color: white;
+      font-family:sans-serif;
+     font-size: 15px;
+      display: flex;
+     justify-content: center;
+     }
+     #Below_Navbar {
+      
+         height: 45px;
+         display: flex;
+        
+      
+
+     }
+     #Below_Navbar > select{
+         margin-right: 20px;
+         height: 40px;
+         width: 180px;
+         font-size: 20px;
+         padding-left: 10px;
+         border-radius: 8px;
+         box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        margin-top: 15px;
+        
+        }
+     #Below_Navbar > select:hover{
+         background-color: green;
+     }
+
+
+     #Below_nav_text
+     {
+         display: flex;
+    
+     }
+     #kimye_logo{
+         margin-left: 220px;
+     }
+     #font_awesome{
+      
+     width: 400px;
+     margin-left: 300px;
+     }
+     #profile{
+         height: 20px;
+         width: 201px;
+     }
+     #font_awesome > a{
+         height: 200px;
+     }
+     #main_img_div{
+        
+         height: 500px;
+         margin-top: 5px;
+         width: 100%;
+         box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+       border-radius: 20px;
+       margin-top: 20px;
+     }
+     #main_img{
+     
+         height: 150px;
+         width: 200px;
+         margin-top: 15px;
+         width: 100%;
+         height: 100%;
+         margin: auto;
+         box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+       border-radius: 16px;
+
+     }
+     #Kimye_Product_Div{
+       height: 200px;
+       width: 100%;
+       margin-top: 5px;
+       box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+      border-radius: 16px;
+     } 
+     #Kimye_Product_Img{
+        height: 200px;
+       width: 100%;
+
+     }
+     #Product_Div {
+         height: 1250px;
+         width: 100%;
+         display: grid;
+         grid-template-columns: repeat(2,35%);
+         box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+       border-radius: 16px;
+         gap: 100px;
+        
+
+     }
+
+     #Product_Div > divs{
+        padding-left: 100px;
+         margin-left: 150px;
+         margin-top: 5px;
+         margin-left: 100px;
+         border-radius: 40px;
+         height: 260px;
+         line-height: 5px;
+         margin-left: 180px;
+
+     }
+     #divs{
+      
+        height: 400px;
+        margin-top: 10px;
+        width: 120%;
+        margin-left: 180px;
+     }
+   
+     #Product_Div_img:hover
+     {
+        zoom: 1.1;
+        opacity: 1
+       
+     }
+
+     #Product_Div_img{
+       margin-left: 60px;
+        width: 80%;
+        height: 350px;
+        border-radius: 40px;
+        margin: auto;
+        margin-top: 30px;
+     
+        
+     }
+     #btn{
+        height:45px;
+        width: 120px;
+        background-color: red;
+        border-radius: 12px;
+        display: flex;
+        justify-items: center;
+        text-align: center;
+        justify-content: center;
+        font-size: 20px;
+        padding-top: 8px;
+        margin-left: 180px;
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        margin-bottom: 40px;
+    }
+    #btn:hover{
+        background-color: green;
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+     
+    }
+    #name{
+        font-size: 32px;
+        font-family: cursive;
+        margin-left: 150px;
+     
+    }
+   
+    #decp{
+        font-family: sans-serif;
+        font-size: 20px;
+        display: flex;
+        text-align: justify;
+        text-align: center;
+        margin-left: 10px;
+       
+    }
+    #images
+    {
+        border: 2px solid blue;
+    }
+    #allsafe_img_div{
+      
+         height: 450px;
+         margin-top: 15px;
+         width: 100%;
+         border-radius: 16px;
+         box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+     
+     }
+     #allsafe_img{
+    height:90%;
+    width: 95%;
+    margin-top: 40px;
+     border-radius: 30px;
+     padding-left: 20px;
+     }
+     #jazz_img_div{
+      
+         height: 300px;
+         margin-top:1px;
+         width: 100%;
+         
+     }
+     #jazz_img{
+        height:100%;
+        width: 100%;
+        margin-top: 80px;
+     }
+     #footer{
+       
+         height: 300px;
+         margin-top: 15px;
+         width: 100%;
+     }
+     #footer_img{
+        height:100%;
+        width: 100%;
+        margin-top: 80px;
+
+     }
+</style>
+<body>
+    <div id="all"> 
+
+    </div>
+
+<div id="main_img_div">
+    <a  href="#">
+        <img id="main_img" src="https://i.ibb.co/F63CRZD/Screenshot-51.png" alt="Screenshot-51" border="0"></a>
+<!-- <img id="_img" src="https://ibb.co/b1mDcwK" alt=""> -->
+</div>
+<div id="Kimye_Product_Div">
+    <a href="#"><img id="Kimye_Product_Img" src="https://i.ibb.co/Jvzvtxr/Screenshot-57-1.png" alt="Screenshot-57-1" border="0"></a>
+</div>
+<div id="Product_Div">
+    
+    <!-- <div> <img id="Product_Div_img" src="ttps://cdn.shopify.com/s/files/1/0449/5225/6667/collections/recommended-1-min_670x.png?v=1614338437" alt=""> </div>
+     <div><img id="Product_Div_img" src="ttps://cdn.shopify.com/s/files/1/0449/5225/6667/collections/recommended-3-min_670x.png?v=1614338730" alt=""></div>
+     <div><img id="Product_Div_img" src="https://cdn.shopify.com/s/files/1/0449/5225/6667/collections/recommended-2-min_670x.jpg?v=1614339080" alt=""></div>
+     <div> <img  id="Product_Div_img" src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/Untitled_design_6_670x.png?v=1634808861" alt=""> mushtak</div> -->
+
+ </div>
+<div id="allsafe_img_div">
+ <!-- //<img id="allsafe_img" src="<a href="#"><img src="https://i.ibb.co/9qXtPT7/Screenshot-58-1.png" alt="Screenshot-58-1" border="0"></a>" alt="">
+  -->
+ <a href="#"><img id="allsafe_img" src="https://i.ibb.co/9qXtPT7/Screenshot-58-1.png" alt="Screenshot-58-1" border="0"></a>
+</div>
+
+<div id="jazz_img_div">
+    <a href="#"><img id="jazz_img" src="https://i.ibb.co/M2cv2jX/Screenshot-60-1.png" alt="Screenshot-60-1" border="0"></a>
+</div>
+<div id="footer">
+    <a href=""><img id="footer_img" src="https://i.ibb.co/Mnq4rqJ/Screenshot-61-1.png" alt="Screenshot-61-1" border="0"></a>
+
+</div>
+
+</body>
+</html>
+<script src="https://kit.fontawesome.com/e026d5d7c6.js" crossorigin="anonymous"></script>
+<script src="/scripts/index.js">
+
+
+    //<a href="#"><img src="https://i.ibb.co/9qXtPT7/Screenshot-58-1.png" alt="Screenshot-58-1" border="0"></a>
+
+    //2n--------><a href="https://ibb.co/Z6J3CM3"><img src="https://i.ibb.co/0jXk3Gk/Screenshot-59-1.png" alt="Screenshot-59-1" border="0"></a>
+
+    //3rd ------> <a href="https://ibb.co/p0f70sm"><img src="https://i.ibb.co/M2cv2jX/Screenshot-60-1.png" alt="Screenshot-60-1" border="0"></a>
+    //4th ------> <a href="https://ibb.co/XbPTgTD"><img src="https://i.ibb.co/0cL3S3K/Screenshot-61-1.png" alt="Screenshot-61-1" border="0"></a>
+    //5th ------>  <a href="#"><img src="https://i.ibb.co/9qXtPT7/Screenshot-58-1.png" alt="Screenshot-58-1" border="0"></a>
+    //6th ------> <a href="https://ibb.co/F6GM2Gd"><img src="https://i.ibb.co/Mnq4rqJ/Screenshot-61-1.png" alt="Screenshot-61-1" border="0"></a>
+
+</script>
+
+<script type="module">
+    
+import navbars from "/scripts/index.js"
+ console.log(navbars())
+
+   let navbar = document.getElementById("all")
+   navbar.innerHTML=navbars();
+
+
+
+
+</script>
